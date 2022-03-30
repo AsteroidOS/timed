@@ -1,4 +1,3 @@
 TEMPLATE = subdirs
+SUBDIRS = lib voland server
 CONFIG += ordered
-SUBDIRS += src tests tools
-OTHER_FILES += rpm/*.spec rpm/*.yaml
